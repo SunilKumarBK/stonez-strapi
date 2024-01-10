@@ -1,0 +1,158 @@
+
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5479c4;
+}
+
+.left-container {
+  flex: 2;
+  position: relative;
+  background-color: #f7d672;
+}
+
+.left-content {
+  text-align: center;
+  margin-top: 30px;
+
+  .gifimg{
+    height: auto;
+    width: 50%;
+    margin-top: 0%;
+  }
+
+  img {
+    height: 350px;
+    width: 350px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 2%;
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .time {
+    color: black;
+  }
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.rightcontent-login {
+  text-align: center;
+
+  .logo-img {
+    width: 110px; 
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(68, 66, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 39%;
+  }
+  
+  .logo-img img {
+    max-width: 80px; 
+    max-height: 80px;
+    object-fit: contain;
+  }
+  
+
+  p {
+    color: darkgray;
+    margin-top: 10%;
+  }
+
+  // #inputLable1 {
+  //   width: 85%;
+  // }
+
+.password-input-container{
+  padding-top: 3%;
+  // display: flex;
+
+}
+
+  .inputLable {
+    width: 85%;
+    padding: 4%;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    background-color: #fff1c9;
+    outline: #c49711;
+    margin-top: 2%;
+    display: flex;
+
+    &:focus {
+      border-color: #7165e3;
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+  }
+
+  button {
+    width: 90%;
+    padding: 15px;
+    background-color: #c49711;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: bold;
+    font-weight: 400;
+    margin-top: 4%;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add a transition for a smooth effect */
+
+    &:hover {
+      background-color: #c49711;
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); /* Add box-shadow on hover */
+    }
+  }
+
+  .password-icon {
+    position: absolute;
+    right: 8px; // Adjust the positioning as needed
+    top: 51%; // Adjust the positioning as needed
+   
+    cursor: pointer;
+
+    i {
+      font-size: 1.2em; // Adjust the font size as needed
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+

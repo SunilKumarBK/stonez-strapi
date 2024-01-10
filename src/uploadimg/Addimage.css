@@ -1,0 +1,178 @@
+.dialog {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+
+.uploadimgbtn {
+    width: 33%;
+    padding: 10%;
+    position: relative;
+    position: absolute;
+    margin-top: -23.5%;
+    margin-left: 35%;
+    /* margin-bottom: 100px; */
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px yellow;
+    justify-content: center;
+}
+
+
+
+.uploadimgbtn:hover {
+    background-color: rgba(229, 162, 62, 0.79);
+}
+
+.uploadimgbtn p {
+    transition: transform 0.3s;
+    flex-direction: row;
+    color: gray;
+}
+
+.uploadimgbtn::before {
+    content: '+';
+    font-size: 40px;
+    font-weight: lighter;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    margin-top: -8%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 1;
+}
+
+.uploadimgbtn:hover p {
+    transform: translateY(20px);
+    margin-top: 5%;
+}
+
+.uploadimgbtn:hover::before {
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+.bp3-dialog-body {
+    width: 40vw;
+    height: 20%;
+    margin-left: 17%;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    top: 3%;
+    right: 5%; 
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    z-index: 2;
+}
+
+
+.form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: -20%;
+
+}
+
+.form h1{
+    margin-bottom: 2%;
+    color: black;
+    margin-right: 55%;
+    font-size: 24px;
+}
+
+
+
+.title {
+    padding: 10px 10px;
+    position: relative;
+    
+    
+}
+
+.first-label label{
+    border-top: 1px solid gray;
+    width: 32vw;
+    
+    display: flex;
+}
+
+
+/* Styling for .documentname-text and .document-description-text */
+.documentname-text,
+.document-description-text {
+    width: 32vw;
+    display: block;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Additional styling for .document-description-text */
+.document-description-text {
+    margin-top: 2%;
+    height: 15vh;
+}
+
+
+.uploadinput {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.uploadbutton {
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: grey;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.fileicon {
+    color: rgb(117, 117, 225);
+    margin-top: 15%;
+}
+
+
+
+.footer{  
+    border: none;
+    margin-left: 80%;
+}
+
+.savebtn {
+    background-color: rgba(229, 162, 62, 0.79);
+    color: white;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 15%;
+    margin-left: -50%;
+  }

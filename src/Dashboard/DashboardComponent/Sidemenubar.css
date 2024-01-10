@@ -1,0 +1,112 @@
+
+.container{
+    display:flex;
+    flex-direction: row;
+    height: calc(100vh - 4em);
+    transition: margin-left 0.5s ease;
+   
+}
+
+.sidebarcard{
+  padding:5px;
+
+    display:flex;
+    height:100%;
+    width:100%;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.togglebutton{
+
+  position: absolute;
+    margin-top: -2.5%;
+    font-size: 20px;
+    /* width: 2%; */
+    left: 1%;
+    gap: 2px;
+}
+.cardcontent{
+  display: flex; 
+  margin-top: 10px;
+  flex-direction: column;
+  flex:1;
+  width: 100%;
+  padding: 4px;
+  gap: 5px;
+  
+  
+}
+.cardcontent li{
+  justify-content: space-around;
+  /* width: 220px; */
+  padding: 5px 5px;
+  background-color: #ecb725;
+}
+
+
+.card * {
+    box-sizing: border-box;
+  }
+  
+
+.rightcontent{
+
+    width:100%;
+    padding: 5px;
+}
+.list-item{
+  width: 100%;
+  gap: 8px;
+  font-size: 20px;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  color: grey;
+  border-radius: 2px;
+  padding: 5px 8px;
+
+}
+
+
+.list-item.active {
+  background-color: #ecb725;
+  color: white; 
+}
+
+
+/* Sidebar.css */
+
+.sidebar {
+    display:flex;
+    /* align-items:center; */
+    /* justify-content: center; */
+    width: 230px;
+    height: 100%;
+
+    /* background-color: #333; */
+    /* position: fixed; */
+    color: #fff;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar.collapsed {
+    width:50px;
+    justify-content: center;
+    /* display: flex; */
+    /* position: relative; */
+  }
+  
+  .toggle-button {
+    /* cursor: pointer; */
+    display: flex;
+    justify-content:center;
+    /* padding: 10px; */
+    font-size: 20px;
+  }
+
+  
+
+

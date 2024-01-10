@@ -1,0 +1,57 @@
+.grid{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:10px;
+    grid-auto-rows: minmax(120px,auto);
+    height: 100%;
+    padding: 5px;
+}
+.box{
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+
+}
+/* .boxfourdialog{
+    width: 450px;
+    padding: 20px;
+} */
+.boxfourdialog{
+   
+    /* /* text-align: unset; */
+}
+.box4 , .box6{
+    grid-column:span 2;
+    grid-row: span 2;
+
+}
+.customscrollbar {
+    max-height: 350px;
+    overflow-y: auto;
+    /* background-color: aqua; */
+    padding: 10px;
+    gap: 10px;
+    margin-top: 3%;
+  }
+
+  .customscrollbar::-webkit-scrollbar {
+    width: 0 !important;
+    /* display: none; */
+  }
+.box5{
+    grid-column: span 3;
+    grid-row: span 3;
+   
+    /* flex-direction:row; display:flex; */
+    
+    /* filter:grayscale() */
+}
+.postoption li{
+    list-style: none;
+    
+    /* position: absolute; */
+
+}

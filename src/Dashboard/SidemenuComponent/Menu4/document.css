@@ -1,0 +1,54 @@
+.documentContainer {
+width: 50%;
+margin-top: 3%;
+/* margin-left: 20%; */
+}
+
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.documentContainer input[type="file"] {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  
+  border-radius: 4px;
+}
+
+.documentContainer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.documentContainer li {
+  background-color: #ffefbf;
+  color: #ffc107;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #856b1c;
+}

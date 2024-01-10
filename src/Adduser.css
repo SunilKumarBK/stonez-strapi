@@ -1,0 +1,111 @@
+.adduserbtn {
+    /* background-color: #007bff; */
+    outline:none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* .adduserbtn:hover {
+    
+  }
+   */
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #007bff; */
+    /* border-bottom:2px solid black; */
+    /* border-bottom-width: 50px; */
+    color: rgb(14, 13, 13);
+  }
+  
+  .dialog-header h4 {
+    margin: 0;
+  }
+
+.dialog-content {
+    
+    justify-content:center;
+    left:10%;
+    position:relative;
+  }
+  .Typetext{
+    padding:5px 0;
+    border:none;
+    width:100%;
+    outline:none;
+  }
+  
+  .TypetextPincode{
+    width:48%;
+    margin-top:5px;
+    display:flex;
+    border:none;
+    outline:none;
+  }
+  .TypetextName{
+    padding:5px 0;
+    border:none;
+    outline:none;
+    display:flex;
+    /* flex-direction:row; */
+    /* gap:10px; */
+    justify-content:space-between;
+  }
+  
+  .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 10px 10px;
+    /* background-color:aqua; */
+  }
+  
+  .dialog-footer .MuiButton-root {
+    margin-right: 10px;
+  }
+  
+  .dialog-footer .MuiButton-error {
+    color: #ff5722;
+  }
+  
+  .dialog-footer .MuiButton-success {
+    color: #4caf50;
+  }
+.cardd {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  .MuiInputLabel-root {
+    color: #007bff;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .MuiButton-root {
+    text-transform: none;
+  }
+  
+  /* Style for the close icon */
+  .close-icon {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .close-icon:hover {
+    color: #f44336;
+  }

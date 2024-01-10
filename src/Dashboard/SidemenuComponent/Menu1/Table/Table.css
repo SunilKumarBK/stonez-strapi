@@ -1,0 +1,28 @@
+/* MyTable.css */
+.custom-scrollbar {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+  }
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color:#ecb725;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('//images/headerimg.jpg'); */
+  /* Set the background color as needed */
+    z-index: 2;
+  }
+  
+  .sticky-header th {
+    position: sticky;
+    top: 0;
+    color: white;
+
+    /* background-color: #fff; Set the background color as needed */
+    z-index: 2;
+  }
+  

@@ -1,0 +1,32 @@
+
+  
+  .company-setting label {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 1%;
+    font-weight: bold;
+  }
+  
+  .company-setting input,
+  .company-setting textarea {
+    width: 50%;
+    padding: 8px;
+    /* margin-bottom: 1%; */
+    box-sizing: border-box;
+  }
+  
+  .company-setting button {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 13px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .company-setting-btn {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+  }
+  

@@ -1,0 +1,45 @@
+.dashbarnav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background:white;
+    height:'5%';
+    padding:5px 0;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    /* margin-top: 5%; */
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: rgb(204, 203, 203);
+}
+.navcontent{
+    /* display: flex; */
+    /* align-items: center; */
+    padding-left: 2.5%;
+
+    /* background-color: aqua; */
+}
+.menuicon{
+    font-size:20px;
+    position:relative;
+}
+.navrightcontent{
+    display: flex;
+    gap: 15px; 
+    padding: 0 10px;
+    align-items:center;
+    /* color:#ecb725; */
+}
+.navrightcontent i{
+    color:#ecb725;
+}
+.navrightcontent-div{
+    gap:5px;
+    display:flex;
+    align-items:center;
+}
